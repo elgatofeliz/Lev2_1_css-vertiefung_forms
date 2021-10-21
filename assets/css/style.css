@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 2vh 5vw;
+    background: green;
+}
+
+section{ background: #333;
+    width: 40vw;
+    text-align: center;
+}
+
+form{
+    padding-bottom: 2vh;
+}
+
+input{
+    display: block;
+    padding: 1vh 1vw;
+    margin: 2vh 2.5vw;
+    width: 35vw;
+}
+
+input:nth-of-type(3){
+    height: 15vh;
+}
+
+input:nth-of-type(4){
+    background: darkcyan;
+}
